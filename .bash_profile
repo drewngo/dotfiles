@@ -14,5 +14,5 @@ parse_git_branch() {
     fi
 }
 
-PS1='[\u@\h \W$(parse_git_branch)]\$ '
-
+PROMPT_COMMAND='PS1_CMD1=$(__git_ps1 " (%s)")'; PS1='[\u@\h: \w${PS1_CMD1}]\\$ '
+. ~/.git-prompt.sh
