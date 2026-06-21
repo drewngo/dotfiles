@@ -1,0 +1,34 @@
+[terminal.shell]
+program = "/bin/bash"
+args = ["--login"]
+
+[font]
+size = 18
+
+[font.normal]
+family = "Lyth Mono"
+style = "Regular"
+
+[colors.primary]
+background = '#25397d'
+foreground = '#e2e8f0'
+
+[colors.normal]
+black   = '#3b4b72'
+red     = '#ff6b8b'
+green   = '#4ade80'
+yellow  = '#facc15'
+blue    = '#60a5fa'
+magenta = '#e879f9'
+cyan    = '#2dd4bf'
+white   = '#cbd5e1'
+
+[colors.bright]
+black   = '#475569'
+red     = '#ff85a2'
+green   = '#66ea96'
+yellow  = '#fde047'
+blue    = '#93c5fd'
+magenta = '#f472b6'
+cyan    = '#5eead4'
+white   = '#ffffff'
