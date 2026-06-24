@@ -1,0 +1,45 @@
+{
+    "workbench.colorTheme": "Black",
+    "liveServer.settings.donotShowInfoMsg": true,
+    "workbench.sideBar.location": "right",
+    "workbench.editor.empty.hint": "hidden",
+    "editor.fontSize": 18,
+    "editor.fontFamily": "'Lyth Mono'",
+    "editor.tabSize": 2,
+    "workbench.activityBar.location": "top",
+    "terminal.integrated.profiles.osx": {
+    "bash-login": {
+      "path": "/bin/bash",
+      "args": ["--login"]
+        }
+    },
+    "terminal.integrated.defaultProfile.osx": "bash-login",
+    "terminal.integrated.fontSize": 18,
+    "terminal.integrated.fontFamily": "Lyth Mono",
+    "workbench.colorCustomizations": {
+    "terminal.background": "#25397d",
+    "terminal.foreground": "#e2e8f0",
+    "terminal.ansiBlack": "#3b4b72",
+    "terminal.ansiRed": "#ff6b8b",
+    "terminal.ansiGreen": "#4ade80",
+    "terminal.ansiYellow": "#facc15",
+    "terminal.ansiBlue": "#60a5fa",
+    "terminal.ansiMagenta": "#e879f9",
+    "terminal.ansiCyan": "#2dd4bf",
+    "terminal.ansiWhite": "#cbd5e1",
+    "terminal.ansiBrightBlack": "#475569",
+    "terminal.ansiBrightRed": "#ff85a2",
+    "terminal.ansiBrightGreen": "#66ea96",
+    "terminal.ansiBrightYellow": "#fde047",
+    "terminal.ansiBrightBlue": "#93c5fd",
+    "terminal.ansiBrightMagenta": "#f472b6",
+    "terminal.ansiBrightCyan": "#5eead4",
+    "terminal.ansiBrightWhite": "#ffffff"
+  },
+    "custom-ui-style.font.sansSerif": "Lyth Mono",
+    "window.zoomLevel": 2,
+    "window.menuBarVisibility": "compact",
+    "chat.titleBar.openInAgentsWindow.enabled": false,
+    "window.commandCenter": false,
+    "editor.minimap.enabled": false,
+}
