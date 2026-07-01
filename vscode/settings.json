@@ -37,7 +37,7 @@
     "terminal.ansiBrightWhite": "#ffffff"
   },
     "custom-ui-style.font.sansSerif": "Lyth Mono",
-    "window.zoomLevel": 2,
+    "window.zoomLevel": -0.75,
     "window.menuBarVisibility": "compact",
     "chat.titleBar.openInAgentsWindow.enabled": false,
     "window.commandCenter": false,
