@@ -48,4 +48,13 @@
     "editor.minimap.enabled": false,
     "files.insertFinalNewline": true,
     "workbench.editor.showTabs": "none"
+        "vim.handleKeys": {
+        "<C-p>": false,
+        "<C-d>": true,
+        "<C-s>": false,
+        "<C-z>": false,
+        "<C-j>": false
+    },
+    "editor.lineNumbers": "relative",
+    "workbench.panel.defaultLocation": "right"
 }
