@@ -74,5 +74,3 @@ function togglePrompt {
 togglePrompt
 
 #PATH
-export PATH="/opt/homebrew/bin:$PATH"
-export PATH="/Library/PostgreSQL/18/bin:$PATH"
