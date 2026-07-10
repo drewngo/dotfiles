@@ -1,0 +1,13 @@
+#!/bin/bash
+
+xhost +si:localuser:$USER &
+
+picom -b &
+
+sleep 2
+
+nm-applet &
+pasystray &
+
+exit 0
+

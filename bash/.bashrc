@@ -8,7 +8,7 @@ alias lsa='ls -A'
 # Restores terminal color support while using screen
 alias screen='screen -T xterm'
 
-PROMPT_NAME_MODE=host
+PROMPT_NAME_MODE=user
 
 set_prompt() {
   local rc=$?

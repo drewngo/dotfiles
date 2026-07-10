@@ -1,0 +1,3 @@
+prog "Thunar" "system-file-manager" thunar
+prog "Wezterm" "utilities-terminal" wezterm
+prog "Firefox" "firefox" firefox
