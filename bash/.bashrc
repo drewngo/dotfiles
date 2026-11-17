@@ -1,4 +1,11 @@
-alias ls='ls -v --color=auto'
+if command -v gls >/dev/null; then
+  alias ls='gls -v --color=auto'
+  eval "$(gdircolors -b)"
+else
+  alias ls='ls -v --color=auto'
+  command -v dircolors >/dev/null && eval "$(dircolors -b)"
+fi
+export LS_COLORS="$LS_COLORS:*.v=0;33:*.sv=0;33:*.vhd=0;35:*.vhdl=0;35"
 alias l='ls -lF'
 alias la='ls -lAF'
 alias lr='ls -ltrF'
