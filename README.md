@@ -1,3 +1,7 @@
-main branch is windows stuff typically unless i troll on a commit
+# dotfiles
 
-see branches - osx, linux
+bash, nvim, wezterm. Managed with GNU Stow:
+
+```
+./stow.bash
+```

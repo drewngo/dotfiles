@@ -1,21 +1,22 @@
 return {
   'nvim-treesitter/nvim-treesitter',
+  branch = 'master', -- Force Lazy to lock onto the stable legacy branch
   build = ':TSUpdate',
-  init = function()
-    require('nvim-treesitter.install').prefer_git = true
+  config = function()
+    -- Map Verilog file extensions cleanly
+    vim.filetype.add({
+      extension = {
+        v = "verilog",
+        sv = "verilog",
+      }
+    })
 
-    vim.env.PATH = vim.env.PATH .. ';C:\\Users\\B1024310\\AppData\\Local\\zig'
-    vim.env.CC = "gcc.bat"
-
-    require('nvim-treesitter.install').compilers = { "gcc" }
-  end,
-  opts = {
-    highlight = { enable = true },
-    indent = { enable = true },
-    autotag = { enable = true },
-    ensure_installed = {
-      "lua",
-    },
-    auto_install = false,
-  }
+    -- The master branch setup API works exactly as expected
+    require('nvim-treesitter.configs').setup({
+      highlight = { enable = true },
+      indent = { enable = true },
+      ensure_installed = { "lua", "verilog" },
+      auto_install = false,
+    })
+  end
 }
