@@ -10,7 +10,7 @@ return {
     dependencies = { "williamboman/mason-lspconfig.nvim" },
     config = function()
       require("mason-lspconfig").setup({
-        ensure_installed = { "lua_ls" },
+        ensure_installed = { "lua_ls", "vhdl_ls" },
       })
 
       vim.diagnostic.config({
@@ -105,6 +105,9 @@ return {
         },
       })
       vim.lsp.enable("lua_ls")
+
+      vim.lsp.config("vhdl_ls", { capabilities = caps })
+      vim.lsp.enable("vhdl_ls")
 
       vim.lsp.config["slang_hardware"] = {
         config = {

@@ -15,7 +15,7 @@ return {
     require('nvim-treesitter.configs').setup({
       highlight = { enable = true },
       indent = { enable = true },
-      ensure_installed = { "lua", "verilog" },
+      ensure_installed = { "lua", "verilog", "vhdl" },
       auto_install = false,
     })
   end
